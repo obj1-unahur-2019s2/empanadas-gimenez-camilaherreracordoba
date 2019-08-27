@@ -45,7 +45,7 @@ Tener en cuenta este escenario
 1. Galván arranca con deuda en 0 y dinero en 0. Su sueldo (que aún no cobró) es de 15000.
 1. Galván gasta 4000, `totalDeuda()` debe ser 4000, `totalDinero()` debe ser 0.
 1. Galván gasta otros 8000, `totalDeuda()` pasa a 12000, `totalDinero()` sigue en 0.
-1. Galván cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000 pesos. Por lo tanto, `totalDeuda()` debe ser 0, y `totalDinero()` debe ser 3000.
+ pe1. Galván cobra, con los 15000 que recibe paga toda su deuda y le sobran 3000sos. Por lo tanto, `totalDeuda()` debe ser 0, y `totalDinero()` debe ser 3000.
 1. Galván gasta 25000, cubre 3000 con el dinero que tiene, el resto es deuda. `totalDeuda()` queda en 22000, `totalDinero()` en 0.
 1. Galván cobra, tiene que dedicar los 15000 a pagar deudas, y no le alcanza. Ahora, `totalDeuda()` pasa a 7000, y `totalDinero()` a 0.
 
